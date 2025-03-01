@@ -36,3 +36,13 @@ Finalment, he utilitzat la biblioteca reportlab per crear un informe en format P
 Generació d'un fitxer CSV amb dades aleatòries
 
 Aquest script genera un fitxer CSV amb professors, alumnes i les seves qualificacions aleatòries. Crea una carpeta Exercici_4_Output, defineix llistes de noms i assigna notes aleatòries. Després, escriu les dades a dades_professors_alumnes.csv amb una capçalera i 20 registres. En executar-lo amb Python, es generarà el fitxer a la carpeta especificada. Per executar-lo, usa python nom_del_fitxer.py.
+
+# Exericici 5
+Càlcul de resultats d'avaluació amb Pandas
+
+Aquest script processa un fitxer CSV amb notes d'alumnes i calcula estadístiques rellevants. Utilitza la llibreria pandas per carregar les dades i calcular la mitjana de nota final per alumne i global. A més, determina el percentatge d'aprovats i suspesos, així com les notes més altes i més baixes. També calcula la desviació estàndard per analitzar la variabilitat de les notes. Per executar-lo, usa python nom_del_fitxer.py.
+
+# Exercici 6
+Visualització de dades d'avaluació amb Matplotlib
+
+Aquest script carrega un fitxer CSV amb les notes dels alumnes i genera visualitzacions per analitzar les dades. Utilitza pandas per processar la informació i matplotlib per representar gràficament els resultats. Es creen diversos gràfics: un histograma de la distribució de notes mitjanes, un diagrama de sectors amb el percentatge d'aprovats i suspesos, un diagrama de barres amb les mitjanes per professor i un boxplot per analitzar la dispersió de les notes per assignatura. Per executar-lo, usa python nom_del_fitxer.py.
