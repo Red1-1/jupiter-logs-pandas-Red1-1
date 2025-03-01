@@ -46,3 +46,7 @@ Aquest script processa un fitxer CSV amb notes d'alumnes i calcula estadístique
 Visualització de dades d'avaluació amb Matplotlib
 
 Aquest script carrega un fitxer CSV amb les notes dels alumnes i genera visualitzacions per analitzar les dades. Utilitza pandas per processar la informació i matplotlib per representar gràficament els resultats. Es creen diversos gràfics: un histograma de la distribució de notes mitjanes, un diagrama de sectors amb el percentatge d'aprovats i suspesos, un diagrama de barres amb les mitjanes per professor i un boxplot per analitzar la dispersió de les notes per assignatura. Per executar-lo, usa python nom_del_fitxer.py.
+
+# Exercici 7
+Informe de Generació de Gràfiques i PDF
+Aquest codi carrega un fitxer CSV amb les dades dels alumnes, calcula la mitjana de les seves notes i genera diverses gràfiques. Les gràfiques inclouen la distribució de les notes mitjanes, el percentatge d'aprovats i suspesos, les notes mitjanes per professor, i la distribució de les notes per assignatura. Posteriorment, genera un informe en PDF que inclou aquestes gràfiques i el codi de registre de logs. Les imatges es redimensionen per tal que s'adaptin adequadament al document PDF generat. El codi utilitza diverses biblioteques com pandas, matplotlib, reportlab i PIL per al processament i la generació de l'informe.
