@@ -31,3 +31,8 @@ Després, he utilitzat la biblioteca matplotlib.pyplot per crear un gràfic de b
 Generació d'informes en PDF amb ReportLab:
 
 Finalment, he utilitzat la biblioteca reportlab per crear un informe en format PDF. He definit la mida de la pàgina, he afegit un text al PDF i l'he guardat en un fitxer.
+
+# Exercici 4
+Generació d'un fitxer CSV amb dades aleatòries
+
+Aquest script genera un fitxer CSV amb professors, alumnes i les seves qualificacions aleatòries. Crea una carpeta Exercici_4_Output, defineix llistes de noms i assigna notes aleatòries. Després, escriu les dades a dades_professors_alumnes.csv amb una capçalera i 20 registres. En executar-lo amb Python, es generarà el fitxer a la carpeta especificada. Per executar-lo, usa python nom_del_fitxer.py.
